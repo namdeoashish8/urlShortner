@@ -1,0 +1,154 @@
+:root {
+  --blue-dark-color: #011638; /* Define a root variable for primary color */
+  --blue-light: #2274a5;
+  --cream-color: #f1d4bd;
+  --blue-lighter1: #b4d8ec;
+  --black : #000;
+  --white : #ffffff;
+}
+
+
+
+.helpPage{
+  max-width: 900px;
+  text-align: center;
+  margin: auto;
+}
+
+/* Cards Styling */
+
+.products-container{
+  max-width: 110;
+  margin: auto;
+  justify-content: space-evenly;
+  
+
+}
+
+
+/* Product details styling */
+
+.product-details-container{
+  margin-left: 20px;
+}
+
+.productCard{
+  background-color: white;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 8px;
+  margin: 16px;
+}
+
+.product-details{
+  display: flex;
+  padding: 20px;
+}
+
+.product-details img{
+    max-width: 400px;
+    border: #000 solid 2px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+.detail-texts{
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.productDesc{
+  margin: 2px;
+}
+
+.productPrice{
+  display: flex;
+  margin-left: 2px;
+  gap: 8px;
+}
+.product-final{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.product-original{
+  text-decoration: line-through;
+  margin-bottom: 2px;
+}
+
+.product-discount{
+  font-weight: 500;
+  color: rgb(13, 179, 21);
+}
+
+.productName{
+  text-decoration: solid;
+  margin: 2px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.productImg{
+  
+  height: 200px;
+  width: 200px;
+
+}
+
+.productImg img{
+  height: 100%;
+  width: 100%;
+  margin: 4px;
+  object-fit: cover;
+
+}
+
+
+/* Header and Footer styling */
+.cart{
+  height: 45px;
+  width: 45px;
+  padding: 8px;
+}
+
+.footer{
+  background-color: var(--blue-lighter1);
+  font-size: 20px;
+  padding: 8px;
+  text-align: center;
+  font-weight: 100;
+}
+
+/* body{
+  background-color: var(--cream-color);
+} */
+
+nav{
+  padding-right:16px;
+  background-color: var(--blue-light);
+}
+
+.logoImg{
+  padding: 8px;
+  height: 40px;
+}
+
+.header-container .logo{
+  font-size: 24px;
+}
+
+.header-container{
+  display: flex;
+  color: #ffffff;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.header-container ul{
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  text-decoration: solid;
+}

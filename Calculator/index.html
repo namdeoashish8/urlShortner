@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish's Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <!--toggle theme-->
+    <div id="theme">
+        <img  id="theme-button" src="./bulb1.jpg" alt="theme-toggle">
+    </div>
+
+    <div class="container">
+
+        <div>
+            <ul id="history"></ul>
+        </div>
+
+        <div class="form">
+            <h1>Calculator</h1>
+            <input type="number" id="input-1" >
+            <select name="cars" id="operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input type="number" id="input-2"  >
+            <button id="equals">=</button>
+        </div>
+
+        <div>
+            <h1 id="computation"></h1>
+        </div>
+
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

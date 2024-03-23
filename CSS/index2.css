@@ -1,0 +1,121 @@
+/* .parent{
+    width: 300px;
+    height: 400px;
+    background-color: red;
+
+    position: relative;
+    left: 30px;
+    
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    right: 5px;
+    bottom: 50px;
+
+    
+} */
+
+/* .random{
+    color: blue;
+}
+
+.random p span{
+    color: red;
+} */
+
+/* PSUEDO CLASS */
+/* a:link{
+    color: violet;
+}
+
+a:visited{
+    color: orange;
+}
+
+a:active{
+    color: red;
+}
+
+a:hover{
+    color: green;
+    border: 10px;
+    /* transition: 0.4; */
+    /* font-size: 20px;
+    border: 20px;
+} 
+*/
+
+/* PSUEDO elements- */
+/* a ::after{
+    content: "before";
+}
+
+a::before{
+    content: "randomebeforetext";
+}
+
+p::first-letter{
+    font-size: larger;
+    color: red;
+}
+
+/* Selection */
+
+/* ::selection{
+    color: aqua;
+    background-color: purple;
+}
+
+:root{
+    --primary-color: #c77171;
+    --secondary-color: rgb(84, 247, 8) ;
+    --border-radius: 30px;
+
+}  */
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+div{
+    display :flex;
+    justify-content: space-evenly; 
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    /* gap: 0;
+    height: 30px;
+    background-color: cadetblue; 
+
+            
+} */ 
+
+p{
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    /* background-color: rgb(8, 250, 28); */
+    margin: 10px 0px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    /* box-shadow: rgba(100, 110, 150, 0.2) 12px 12px 10px 5px; */
+    /* box-shadow: rgba(60, 50, 90, 0.2) 60px, 20px, 0, 50px; */
+
+}
+
+@media screen and(min-width: 600px) {
+    p{
+        width: 48%;
+    } 
+} 
+
+/* @media screen and (min-width : 600px){
+    p{
+        width: 48%;
+    }
+} */
